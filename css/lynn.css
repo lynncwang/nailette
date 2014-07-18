@@ -1,0 +1,27 @@
+
+body {
+    background: #323232;
+    padding-top: 60px;
+}
+
+.navbar-brand {
+    font-family: Pacifico;
+    text-transform: capitalize;
+}
+
+
+.squares [class*="col"] {
+    overflow: hidden;
+}
+.squares .row > [class*="col"] {
+    height: 200px;
+}
+    
+.squares [class*="col"] img.centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.table {
+    background:white;
+}
