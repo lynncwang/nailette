@@ -1,0 +1,604 @@
+/* ======================================
+navigation 
+========================================*/
+.navbar {
+    background-color: white;
+    min-height: 100px;
+    /*    padding-right: 30px;*/
+    margin-bottom: 0;
+    border-bottom: none;
+        }
+
+.navbar .navbar-brand {
+    height: auto;
+    padding: 0 0 0 20;
+    margin-left: 20;
+}
+
+.navbar .navbar-brand img {
+    margin: 20px 0px 6px;
+}
+
+.navbar .nav li {
+    font-size: 1.2em;
+    padding-left: 20px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav li:last-child {
+    padding-right: 20px;
+}
+
+.navbar .nav  li a:hover {
+    color: teal;
+}
+
+.navbar .nav  li a:active {
+    color: purple;
+}
+
+/* ======================================
+home page main graphic
+========================================*/
+#homemain {
+    background: url(../png/background.png);
+}
+#homemain .right {
+    padding-bottom: 40px;
+}
+
+#homemain .right h1 {
+    margin-bottom: 1em;
+    margin-top: 2.2em;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+}
+
+#homemain .right small {
+    display: block;
+    margin-top: 0.5em;
+    font-size: .4em;
+    font-family: 'droid sans', 'sans-serif';        
+}
+
+#homemain .left img {
+    width: 95%;
+    margin: 7em 5%;
+}
+
+#homemain .right button {
+    float: left;
+    clear: both;
+    display: block;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 1em;
+}
+
+/* ======================================
+home page thumbnails
+========================================*/
+.thumbtitle {
+    background-color: white;
+    text-align: left;
+    padding: 20 20 20 20px;
+    margin-bottom: 0px;
+}
+
+.thumbtitle h3 {
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+}
+
+.thumbtitle h4 {
+    font-family: 'open sans',sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: grey;  
+}
+
+.thumbtitle img {
+    width: 100%;
+}
+
+/* ======================================
+blog
+========================================*/
+
+.blog {
+    background: url(../png/mint-bg.png);
+    padding: 40 20 20;
+}
+
+.blog h1 {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: 'lato',sans-serif;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog a {
+    color: white;
+}
+
+.blog img {
+    width: 100%;
+    margin: 0px;
+}
+
+.blog h4 {
+    text-align: left;
+    font-family: 'droid sans',sans-serif;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.2em;
+}
+
+.blog h3 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 25px auto 0px;
+    font-family: 'droid sans', sans-serif;
+}
+
+/* ======================================
+testimonials
+========================================*/
+.saying h1 {
+    text-align: center;
+    font-family: 'lato',sans-serif;
+}
+
+.saying .quotes {
+    padding: 20;
+    font-style: italic;
+}
+
+.saying img {
+    max-width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+/* ======================================
+instagram
+========================================*/
+
+.insta {
+    margin: 0px;
+    padding: 20px 0px;
+    background-color: #ff6569;
+}
+
+.insta .left {
+    margin-left: 15px;
+}
+
+.insta .right {
+    margin-top: 5px;
+    margin-right: -15px;
+    font-family: 'droid sans',sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.insta img {
+    width: 100%;
+}
+
+.insta .btn {
+    background-color: #ffae65;
+    color: black;
+    border: none;
+    font-family: 'oswald',sans-serif;
+}
+
+/* ======================================
+press
+========================================*/
+.press {
+    display: block;
+    margin: 30px auto;
+    width: 1032px;
+}
+
+.press h4 {
+    text-align: center;
+    font-family: 'open sans',sans-serif;
+    font-weight: 800;
+}
+
+@media (max-width: 1032px) {
+    .press {
+        width: 100%;
+    }
+    .press img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+.press img {
+    height: 60px;
+}
+/* ======================================
+footer
+========================================*/
+#mc_embed_signup {
+    clear:both;
+}
+
+.social .middle a,
+.social .right a {
+    color: #8B668B;
+}
+#mc_embed_signup input.button {
+    background-color: #8B668B;
+    color: white;
+}
+
+.social {
+    background-color: #EED2EE;
+    padding: 8 20 10px;
+}
+
+.social .middle a {
+    margin: 2px;
+}
+
+.social .right {
+    margin-top: 10px;    
+}
+
+/* ======================================
+Checkout navigation
+========================================*/
+.ribbon {
+    font-size: 1.5em !important;
+    width: 60%;
+    position: relative;
+    background: #8B668B;
+    color: white;
+    text-align: center;
+    font-family: 'droid sans', sans-serif;
+    padding: .5em 2em;
+    margin: .75em auto .5em;
+}
+
+.ribbon a {
+    color: #EED2EE;
+}
+
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0em;
+    border: 1.05em solid #8B668B;
+}
+
+.ribbon:before {
+    left: -2em;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: -2em;
+    border-right-color: transparent;
+}
+
+@media (max-width: 1148px) {
+    .ribbon:before,
+    .ribbon:after {
+        display: none;
+    }
+}
+
+@media (max-width: 691px) {
+}
+
+@media (max-width: 509px) {
+}
+
+
+@media (min-width: 501px) {
+    .mobilecheckoutnavban {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .ribbon {
+        display: none;
+    }
+    .mobilecheckoutnavban {
+        width: 95%;
+        margin: 10px auto;
+    }
+}
+
+.checkoutnav h4 {
+    color: grey;
+    font-family: 'droid sans', sans-serif;
+}
+
+.checkoutnav h2 {
+    color: black;
+}
+
+.checkoutnav h4,
+.checkoutnav h2 {
+    text-align: center;
+}
+
+/* ======================================
+Checkout styles
+========================================*/
+.checkoutstyles {
+    margin: 10px;
+}
+
+.simple,
+.classy,
+.bold,
+.mix {
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto 40px;
+}
+
+.simple {
+    background-image: url("/png/simple1.png");
+}
+
+.simple:hover {
+    background-image: url("/png/simple2.png");
+}
+
+.classy {
+    background-image: url("/png/classy1.png");
+}
+
+.classy:hover {
+    background-image: url("/png/classy2.png");
+}
+
+.bold {
+    background-image: url("/png/bold1.png");
+}
+
+.bold:hover {
+    background-image: url("/png/bold2.png");
+}
+
+.mix {
+    background-image: url("/png/mix1.png");
+}
+
+.mix:hover {
+    background-image: url("/png/mix2.png");
+}
+
+/* ======================================
+checkout frequency and plan
+========================================*/
+.monthly,
+.bimonthly {
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 10px 40px;
+}
+
+.monthly {
+    background-image: url("/png/monthly.png");
+}
+
+.bimonthly {
+    background-image: url("/png/bimonthly.png");
+}
+
+.monthly:hover {
+    background-image: url("/png/monthly2.png");
+}
+
+.bimonthly:hover {
+    background-image: url("/png/bimonthly2.png");
+}
+
+.checkoutfreq img,
+.checkout plan img{
+    margin: 5px auto 35px;
+    width: 100%;
+}
+
+.checkoutplan.sixboxes {
+    width: 30%;
+}
+
+/* ======================================
+checkout final
+========================================*/
+.checkoutsummary {
+    background-color: #EFF8FB;
+}
+
+.checkoutsummarytext,
+.coupon,
+#couponcode {
+    text-align: center;
+}
+
+.checkoutsummarytext {
+    line-height: 30px;
+}
+
+.coupon {
+    line-height: 20px;
+}
+
+#couponcode {
+    line-height: 20px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#applycoupon {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.checkoutform {
+    width: 400px;
+    overflow: hidden;
+    padding:10px; 
+}
+
+.checkoutform input[type='text'], 
+.checkoutform input[type='password'],
+.checkoutform h2,
+.checkoutform .expires {
+    margin: 2%;
+}
+
+.checkoutform h2 {
+    margin-top: 10%;
+}
+
+.checkoutform input[type='text'], 
+.checkoutform input[type='password'] {
+    line-height: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.checkoutform select {
+    background: white;
+    width: 60px;
+    font-size: 16px;
+    border-color: grey;
+    height: 40px;
+}
+
+#expirationmonth,
+#expirationyear {
+    width: 20%;
+    margin-right: 2%;
+}
+
+#name,
+#email,
+#password {
+    width: 94%;
+}
+
+#street,
+#ccnumber {
+    width: 70%;
+}
+
+#city {
+    width: 48%;
+}
+
+#zip {
+    width: 24.5%;
+}
+
+.expires {
+    font-size: 1.5em;
+}
+
+#billzip {
+    width: 35%;
+    margin-left: 0;
+}
+
+#aptsuite,
+#cvv {
+    width: 21%;
+    margin-left: 0%;
+}
+
+.join {
+    color: white;
+    background-color: green;
+    width: 150px;
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 100%;
+    border: none;
+    margin: 4% 2% 10%;
+    border-radius:3px;
+}
+
+/* ======================================
+media queries 
+========================================*/
+@media (min-width: 768px) {
+  .navbar .navbar-collapse {
+    margin-top: calc(20px + 1.3em);
+  }
+}
+
+@media (max-width: 767px) {
+    #homemain .left img {
+        width: 95%;
+        margin: 1em;
+    }
+    
+    #homemain .right h1 {
+    margin-bottom: 1em;
+    margin-left: .5em;
+    font-size: 4em;
+    margin-top: 0px;
+    }
+
+    #homemain .right small {
+    display: block;
+    margin-top: 0.5em;
+    font-size: .4em
+    }
+
+    #homemain .left img {
+    margin-top: 2em;
+    }
+
+    #homemain .right button {
+    margin-left: 1.5em;
+    margin-bottom: 3em;
+    }
+
+    #homemain .right .join {
+    margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .insta .left {
+        margin-left: 0px;
+    }
+    .insta .right {
+        margin-right: 0px;
+    }
+}
